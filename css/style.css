@@ -1,29 +1,31 @@
-.jumbotron{
+.jumbotron {
     padding: 70px 30px;
     margin: 0 auto;
-    background: #d0f0ef;
-    color: rgb(1, 19, 46);
+    background: rgb(132, 15, 182);
+    color: white;
 }
-.row-header{
+
+.row-header {
     /* vertical | horizontal */
     margin: 0 auto;
     padding: 0;
 }
 
-.row-content{
+.row-content {
     margin: 0 auto;
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 400px;
 }
 
-.footer{
+.footer {
     background-color: #002B49;
     margin: 0 auto;
     padding: 20px 0;
-    color: aquamarine;
+    color: white;
 }
-address{
+
+address {
     font-size: 80%;
     margin: 0;
 }
