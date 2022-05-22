@@ -1,4 +1,14 @@
+body {
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
+}
+
 .jumbotron {
+    /* * vertical | horizontal * */
     padding: 70px 30px;
     margin: 0 auto;
     background: rgb(132, 15, 182);
@@ -6,7 +16,7 @@
 }
 
 .row-header {
-    /* vertical | horizontal */
+    /* * vertical | horizontal * */
     margin: 0 auto;
     padding: 0;
 }
