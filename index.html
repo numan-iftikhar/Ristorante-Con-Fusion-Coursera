@@ -54,8 +54,9 @@
                         lipsmacking creations
                         will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-6 ps-5 d-flex justify-content-between align-items-center">
                     <img src="img/logo.png" alt="Ristorante Con Fusion" class="img-fluid">
+                    <a href="#form" class="btn btn-sm btn-warning p-2 px-5">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -70,10 +71,10 @@
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0">
                         <img src="img/uthappizza.png" alt="Uthappizza">
-
                     </div>
                     <div class="flex-grow-1 ms-3">
-                        <h2 class="mt-0">Uthappizza <span class="badge bg-danger">HOT</span> <span class="badge rounded-pill bg-secondary">$4.99</span></h2>
+                        <h2 class="mt-0">Uthappizza <span class="badge bg-danger">HOT</span> <span
+                                class="badge rounded-pill bg-secondary">$4.99</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -89,11 +90,20 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different
-                    salads, six enticing appetizers,
-                    six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just
-                    $19.99 per person </p>
+                <div class="d-flex align-items-center">
+                    <div class="flex-grow-1 me-3">
+                        <h2>Weekend Grand Buffet <span class="badge bg-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five
+                            different
+                            salads, six enticing appetizers,
+                            six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for
+                            just
+                            $19.99 per person </p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <img src="img/buffet.png" alt="buffet">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -115,6 +125,61 @@
                             whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
                             experiences. </p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- * Reserve a Table * -->
+    <div class="row g-3 justify-content-center">
+        <div class="col-12 col-sm-6">
+            <div class="card my-4" id="form">
+                <h5 class="card-header bg-warning text-white">Reserve a Table</h5>
+                <div class="card-body">
+                    <form>
+                        <div class="d-flex align-items-center">
+                            <div class="d-inline mx-4">
+                                <label>Number<br>of Guests</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" name="radio-option" type="radio" id="1" value="option1">
+                                <label class="form-check-label" for="1">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" name="radio-option" type="radio" id="2" value="option1">
+                                <label class="form-check-label" for="2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" name="radio-option" type="radio" id="3" value="option1">
+                                <label class="form-check-label" for="3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" name="radio-option" type="radio" id="4" value="option1">
+                                <label class="form-check-label" for="4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" name="radio-option" type="radio" id="5" value="option1">
+                                <label class="form-check-label" for="5">5</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" name="radio-option" type="radio" id="6" value="option1">
+                                <label class="form-check-label" for="6">6</label>
+                            </div>
+                        </div>
+                        <div class="mt-2 d-flex align-items-center">
+                            <div class="d-inline mx-4">
+                                <label>Date<br>and Time</label>
+                            </div>
+                            <div class="d-inline">
+                                <input type="text" name="date" id="date" placeholder="Date">
+                                <input type="text" name="time" id="time" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="submit-button mt-2" style="margin-left: 7em">
+                            <input type="submit" value="Reverse" class="btn btn-primary">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
