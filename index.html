@@ -133,7 +133,7 @@
                 >
                   Cancel
                 </button>
-                <button type="submit" class="btn btn-primary btn-sm ml-1">
+                <button type="submit" class="btn btn-primary btn-sm ms-1">
                   Sign in
                 </button>
               </div>
@@ -164,12 +164,10 @@
               class="img-fluid"
             />
             <a
-              href="#form"
               role="button"
               class="btn btn-block btn-warning p-2 px-5"
-              data-bs-toggle="tooltip"
-              data-bs-html="true"
-              title="or Call us at +0856 12345678"
+              data-bs-toggle="modal"
+              data-bs-target="#reserve-modal"
               >Reserve Table</a
             >
           </div>
@@ -177,6 +175,148 @@
       </div>
     </header>
 
+    <!-- * Modal for Reserve a Table * -->
+    <div id="reserve-modal" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Reserve a Table</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="d-inline me-4">
+                <label>Number<br />of Guests</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  name="radio-option"
+                  type="radio"
+                  id="1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="1">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  name="radio-option"
+                  type="radio"
+                  id="2"
+                  value="option1"
+                />
+                <label class="form-check-label" for="2">2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  name="radio-option"
+                  type="radio"
+                  id="3"
+                  value="option1"
+                />
+                <label class="form-check-label" for="3">3</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  name="radio-option"
+                  type="radio"
+                  id="4"
+                  value="option1"
+                />
+                <label class="form-check-label" for="4">4</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  name="radio-option"
+                  type="radio"
+                  id="5"
+                  value="option1"
+                />
+                <label class="form-check-label" for="5">5</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  name="radio-option"
+                  type="radio"
+                  id="6"
+                  value="option1"
+                />
+                <label class="form-check-label" for="6">6</label>
+              </div>
+              <div class="mt-3 d-flex align-items-center">
+                <div class="d-inline me-4">
+                  <label>Section</label>
+                </div>
+                <div
+                  class="btn-group"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio1"
+                    autocomplete="off"
+                    checked
+                  />
+                  <label class="btn btn-success" for="btnradio1"
+                    >Non-Smoking</label
+                  >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio2"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-danger" for="btnradio2">Smoking</label>
+                </div>
+              </div>
+              <div class="mt-2 d-flex align-items-center">
+                <div class="d-inline me-4">
+                  <label>Date<br />and Time</label>
+                </div>
+                <input
+                  class="col"
+                  type="text"
+                  name="date"
+                  id="date"
+                  placeholder="Date"
+                />
+                <input
+                  class="col ms-3"
+                  type="text"
+                  name="time"
+                  id="time"
+                  placeholder="Time"
+                />
+              </div>
+              <div class="submit-button mt-2" style="margin-left: 4.3em">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="button" class="btn btn-primary btn-sm">Reserve</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row row-content">
         <div class="col">
