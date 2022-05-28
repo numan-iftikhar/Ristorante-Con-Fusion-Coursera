@@ -17,7 +17,17 @@ body {
   background: rgb(132, 15, 182);
   color: white;
 }
+.carousel {
+  background: #512da8;
+}
 
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-item img {
+  opacity: 0.4;
+}
 .row-header {
   /* * vertical | horizontal * */
   margin: 0 auto;
