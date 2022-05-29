@@ -23,7 +23,7 @@
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
     <!-- External CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-org.css" />
     <title>Ristorante Con Fusion</title>
   </head>
 
@@ -190,7 +190,7 @@
           </div>
           <div class="modal-body">
             <form>
-              <div class="d-inline me-4">
+              <div class="d-inline">
                 <label>Number<br />of Guests</label>
               </div>
               <div class="form-check form-check-inline">
@@ -254,7 +254,7 @@
                 <label class="form-check-label" for="6">6</label>
               </div>
               <div class="mt-3 d-flex align-items-center">
-                <div class="d-inline me-4">
+                <div class="me-4">
                   <label>Section</label>
                 </div>
                 <div
@@ -280,29 +280,31 @@
                     id="btnradio2"
                     autocomplete="off"
                   />
-                  <label class="btn btn-outline-danger" for="btnradio2">Smoking</label>
+                  <label class="btn btn-outline-danger" for="btnradio2"
+                    >Smoking</label
+                  >
                 </div>
               </div>
               <div class="mt-2 d-flex align-items-center">
-                <div class="d-inline me-4">
+                <div class="col me-4">
                   <label>Date<br />and Time</label>
                 </div>
                 <input
-                  class="col"
+                  class="col p-1 ms-sm-3 rounded"
                   type="text"
                   name="date"
                   id="date"
                   placeholder="Date"
                 />
                 <input
-                  class="col ms-3"
+                  class="col p-1 rounded ms-sm-3"
                   type="text"
                   name="time"
                   id="time"
                   placeholder="Time"
                 />
               </div>
-              <div class="submit-button mt-2" style="margin-left: 4.3em">
+              <div class="submit-button mt-2" style="margin-left: 4.5rem">
                 <button
                   type="button"
                   class="btn btn-secondary btn-sm"
@@ -310,7 +312,9 @@
                 >
                   Cancel
                 </button>
-                <button type="button" class="btn btn-primary btn-sm">Reserve</button>
+                <button type="button" class="btn btn-primary btn-sm">
+                  Reserve
+                </button>
               </div>
             </form>
           </div>
